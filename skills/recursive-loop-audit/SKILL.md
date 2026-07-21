@@ -118,7 +118,7 @@ Ranked list, each tagged as **Quick win** (small, immediate) or **Structural bet
 
 If the target has no code/data to inspect at all (pure conceptual discussion), say so up front and produce the best-effort version anyway, clearly marking every layer as based on the user's description rather than direct evidence — don't silently pretend the rigor is the same as when real artifacts were reachable.
 
-For any Quick win small and reversible enough to qualify as auto-proceed under the Policy layer's own rule, don't just describe it in the report — offer to make the change right now (draft the edit, open the PR), instead of leaving it as a suggestion for someone to implement later.
+For any Quick win small and reversible enough to qualify as auto-proceed under the Policy layer's own rule, act as the supervisor rather than just describing it or doing it yourself: delegate the actual implementation to a subagent, then review that subagent's work yourself — acting as the quality gate — before it counts as done. Drafting, implementing, and verifying can all happen without asking first; only pause for a human at the point of actually publishing the change (opening a PR, pushing somewhere visible to others) or if your review finds something concerning.
 
 After delivering the report, if any finding has a "check after" date, offer to schedule the next audit run for that date — otherwise it's just a note nobody acts on.
 
