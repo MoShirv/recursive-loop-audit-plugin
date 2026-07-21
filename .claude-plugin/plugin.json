@@ -1,0 +1,10 @@
+{
+  "name": "recursive-loop-audit",
+  "displayName": "Recursive Loop Audit",
+  "version": "1.0.0",
+  "description": "Audit a named product, workflow, or codebase to find where a human is doing repeated manual diagnosis that an autonomous loop (sensor -> policy -> tool -> quality gate -> learning) could take over instead.",
+  "author": {
+    "name": "MoShirv"
+  },
+  "keywords": ["automation", "audit", "self-improving", "loop", "ai-native"]
+}

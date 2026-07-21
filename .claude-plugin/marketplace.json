@@ -1,0 +1,13 @@
+{
+  "name": "moshirv-tools",
+  "owner": {
+    "name": "MoShirv"
+  },
+  "plugins": [
+    {
+      "name": "recursive-loop-audit",
+      "source": "./",
+      "description": "Audit a product, workflow, or codebase for where a human is doing repeated manual diagnosis that an autonomous loop could take over instead."
+    }
+  ]
+}
