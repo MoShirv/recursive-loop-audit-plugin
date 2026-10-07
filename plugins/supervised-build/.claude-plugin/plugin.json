@@ -1,0 +1,10 @@
+{
+  "name": "supervised-build",
+  "displayName": "Supervised Build",
+  "version": "1.0.0",
+  "description": "Plan a feature as a living plan file with numbered steps, then build it step by step by handing each step to a cheaper agent while you supervise, review, merge and report.",
+  "author": {
+    "name": "MoShirv"
+  },
+  "keywords": ["planning", "workflow", "subagents", "supervisor", "review"]
+}

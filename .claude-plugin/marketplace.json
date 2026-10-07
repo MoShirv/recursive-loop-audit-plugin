@@ -8,6 +8,11 @@
       "name": "recursive-loop-audit",
       "source": "./",
       "description": "Audit a product, workflow, or codebase for where a human is doing repeated manual diagnosis that an autonomous loop could take over instead."
+    },
+    {
+      "name": "supervised-build",
+      "source": "./plugins/supervised-build",
+      "description": "Plan a feature as a living plan file with numbered steps, then build it step by step with cheaper agents while a supervisor reviews, merges and reports."
     }
   ]
 }
